@@ -1,9 +1,13 @@
 {% assign category = page.category %}
+{% assign subcategories = site.data.literature[category] | group_by: "subcategory" %}
 
-{% if site.data.literature[category] %}
-  {% for paper in site.data.literature[category] %}
+{% if subcategories %}
+  {% for subcategory in subcategories %}
+  ## {{ subcategory.name }}
+  {% for paper in subcategory.items %}
   - [{{ paper.pmid }}](https://pubmed.ncbi.nlm.nih.gov/{{ paper.pmid }}/) 
-    **({{ paper.author }} {{ paper.year }} {{ paper.journal }})** - {{ paper.description }}
+    **({{ paper.author }}, {{ paper.year }} {{ paper.journal }})** - {{ paper.description }}
+  {% endfor %}
   {% endfor %}
 {% else %}
   No literature found for this category.

@@ -4,6 +4,7 @@ DL_Epi:
     year: 2025
     journal: "Sci Adv"
     description: "INTERACT: CNN+Transformer to predict DNAm levels from 2k sequence, and identify in silico variants that have high effects in prediction"
+    subcategory: "DNA Methylation"
 
 DNAm_methods:
   - pmid: 39742481
@@ -11,3 +12,4 @@ DNAm_methods:
     year: 2024
     journal: "Nat Methods"
     description: "MethSCAn: Identify variable methylated regions"
+    subcategory: "Differential Regions"
