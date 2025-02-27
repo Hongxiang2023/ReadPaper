@@ -3,7 +3,8 @@
 
 {% if subcategories %}
   {% for subcategory in subcategories %}
-  ## {{ subcategory.name }}
+  {{ "### " | append: subcategory.name | markdownify }}  <!-- Ensures Markdown is processed -->
+
   {% for paper in subcategory.items %}
   - [{{ paper.pmid }}](https://pubmed.ncbi.nlm.nih.gov/{{ paper.pmid }}/) 
     **({{ paper.author }}, {{ paper.year }} {{ paper.journal }})** - {{ paper.description }}
@@ -12,3 +13,5 @@
 {% else %}
   No literature found for this category.
 {% endif %}
+
+

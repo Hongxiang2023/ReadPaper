@@ -1,5 +1,5 @@
 DL_Epi:
-  - pmid: 39085432
+  - pmid: 39742481
     author: "Zhou, Han"
     year: 2025
     journal: "Sci Adv"
@@ -7,7 +7,7 @@ DL_Epi:
     subcategory: "DNA Methylation"
 
 DNAm_methods:
-  - pmid: 39742481
+  - pmid: 39085432
     author: "Kremer, Anders"
     year: 2024
     journal: "Nat Methods"
