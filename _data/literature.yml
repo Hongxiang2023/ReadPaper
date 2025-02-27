@@ -5,7 +5,7 @@ DL_Epi:
     journal: "Sci Adv"
     description: "INTERACT: CNN+Transformer to predict DNAm levels from 2k sequence, and identify in silico variants that have high effects in prediction"
 
-DNAm Computational Methods:
+DNAm_methods:
   - pmid: 39742481
     author: "Kremer, Anders"
     year: 2024
