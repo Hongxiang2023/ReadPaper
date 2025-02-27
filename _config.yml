@@ -1,8 +1,18 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Literature Reading Index
+description: A personal index of research papers
 theme: just-the-docs
+color_scheme: "light"
 
-url: https://just-the-docs.github.io
+url: https://Hongxiang2023.github.io/ReadPaper
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# Enable navigation structure
+nav_order: 1
+search_enabled: true
+# Sidebar categories
+nav:
+  - title: "Home"
+    url: /
+  - title: "Deep Learning in Epigenomics"
+    url: /DL_Epi/
+  - title: "DNAm computational methods"
+    url: /DNAm_mehods/
