@@ -1,0 +1,13 @@
+DL_Epi:
+  - pmid: 39085432
+    author: "Zhou, Han"
+    year: 2025
+    journal: "Sci Adv"
+    description: "INTERACT: CNN+Transformer to predict DNAm levels from 2k sequence, and identify in silico variants that have high effects in prediction"
+
+DNAm Computational Methods:
+  - pmid: 39742481
+    author: "Kremer, Anders"
+    year: 2024
+    journal: "Nat Methods"
+    description: "MethSCAn: Identify variable methylated regions"

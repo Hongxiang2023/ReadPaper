@@ -1,0 +1,10 @@
+{% assign category = page.category %}
+
+{% if site.data.literature[category] %}
+  {% for paper in site.data.literature[category] %}
+  - [{{ paper.pmid }}](https://pubmed.ncbi.nlm.nih.gov/{{ paper.pmid }}/) 
+    **({{ paper.author }} {{ paper.year }} {{ paper.journal }})** - {{ paper.description }}
+  {% endfor %}
+{% else %}
+  No literature found for this category.
+{% endif %}

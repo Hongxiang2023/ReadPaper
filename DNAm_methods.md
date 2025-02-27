@@ -1,13 +1,11 @@
 ---
+layout: default
 title: "DNAm Computational Methods"
 parent: "Home"
-nav_order: 3
+nav_order: 2
+category: DNAm_mehods  # This will be replaced dynamically
 ---
 
-# Differential regions tools
+# {{ page.title }} Literature
 
-{% assign papers = site.data.literature.genomics %}
-
-{% for paper in papers %}
-- [{{ 39742481 }}](https://pubmed.ncbi.nlm.nih.gov/{{ 39742481 }}) **({{ Kremer, Anders }} {{ 2024 }} {{ Nature }})** - {{ Identify variable methylated regions and improve clustering and separation of cell types }}
-{% endfor %}
+{% include literature_list.html %}
