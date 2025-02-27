@@ -2,8 +2,8 @@
 layout: default
 title: "DNAm Computational Methods"
 parent: "Home"
-nav_order: 2
-category: DNAm_mehods  # This will be replaced dynamically
+nav_order: 3
+category: DNAm_methods  # This will be replaced dynamically
 ---
 
 # {{ page.title }} Literature
