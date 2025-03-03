@@ -16,3 +16,8 @@ nav:
     url: /DL_Epi/
   - title: "DNAm Computational Methods"
     url: /DNAm_mehods/
+  - title: "Single Cell Omics Methods"
+    url: /SiO_methods/
+  - title: "Spatial Omics Methods"
+    url: /SpO_methods/
+

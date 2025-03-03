@@ -13,3 +13,19 @@ DNAm_methods:
     journal: "Nat Methods"
     description: "MethSCAn: Identify variable methylated regions"
     subcategory: "Differential Regions"
+
+SpO_methods:
+  - pmid: 39934114
+    author: "Wang, Yang"
+    year: 2025
+    journal: "Nat Comm"
+    description: "Benchmark spatial gene expression prediction from histology images"
+    subcategory: "Histology"
+
+SiO_methods: 
+- pmid: 37002403
+  author: "Heumos, Theis"
+  year: 2023
+  journal: "Nat Rev Genet"
+  description: "Best practices for single-cell analysis across modalities"
+  subcategory: "Review"
