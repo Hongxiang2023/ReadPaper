@@ -4,7 +4,67 @@ DL_Epi:
     year: 2025
     journal: "Sci Adv"
     description: "INTERACT: CNN+Transformer to predict DNAm levels from 2k sequence, and identify in silico variants that have high effects in prediction"
-    subcategory: "DNA Methylation"
+    subcategory: "DNA Methylation Prediction"
+  - pmid: 39986279
+    author: "Zhou, Han"
+    year: 2025
+    journal: "Cell Genomics"
+    description: "scMeFormer: A transformer-based deep learning model for imputing DNAm states at each CpG site in single cells"
+    subcategory: "DNA Methylation Prediction"
+  - pmid: 38961062
+    author: "Stanojevic, Sikic"
+    year: 2024
+    journal: "Nat Comm"
+    description: "Rockfish: Transformer-based model for nanopore sequencing data"
+    subcategory: "DNA Methylation Prediction"
+  - pmid: 39742481
+    author: "Zeng, Huson"
+    year: 2023
+    journal: "Gigascience"
+    description: "MuLan-Methyl: Transformer based method to predict N6-adenine, N4-cytosine, and 5-hydroxymethylcytosine"
+    subcategory: "DNA Methylation Prediction"
+  - pmid: 34718418
+    author: "Waele, Waegeman"
+    year: 2022
+    journal: "Bioinformatics"
+    description: "CpG Transformer: Transformer imputation of single-cell methylomes"
+    subcategory: "DNA Methylation Prediction"
+  - pmid: 30994904
+    author: "Ni, Wang"
+    year: 2019
+    journal: "Bioinformatics"
+    description: "DeepSignal: CNN to detect DNA methylation states from Nanopore sequencing reads"
+    subcategory: "DNA Methylation Prediction"
+  - pmid: 30994904
+    author: "Liu, Wang"
+    year: 2019
+    journal: "Nat Comm"
+    description: "DeepMod: Bidirectional recurrent neural network to detect DNA methylation 5mC and 6mA"
+    subcategory: "DNA Methylation Prediction"
+  - pmid: 28395661
+    author: "Christof, Stegle"
+    year: 2017
+    journal: "Genome Biology"
+    description: "DeepCpG: Bidirectional gated recurrent network to predict single cell DNAm levels"
+    subcategory: "DNA Methylation Prediction"
+  - pmid: 28334830
+    author: "Zeng, Gifford"
+    year: 2017
+    journal: "Nuleic Acids Res"
+    description: "CpGenie: Deep convolutional neural network predicts non-coding variants that modulate DNA methylation and the methylation status of a CpG site from the flanking sequence at a single-nucleotide sensitivity"
+    subcategory: "DNA Methylation Prediction"
+  - pmid: 26797014
+    author: "Wang, Wang"
+    year: 2016
+    journal: "Sci Rep"
+    description: "DeepMethyl: Stacked denoising autoencoders from Hi-C and sequence patterns to predict methylation state"
+    subcategory: "DNA Methylation Prediction"
+  - pmid: 32183722
+    author: "Levy, Christensen"
+    year: 2020
+    journal: "BMC Bioinformatics"
+    description: "MethylNet: Encoder-Decoder for EWAS traits"
+    subcategory: "DNA Methylation Biomarkers"
 
 DNAm_methods:
   - pmid: 39085432
@@ -19,8 +79,14 @@ SpO_methods:
     author: "Wang, Yang"
     year: 2025
     journal: "Nat Comm"
-    description: "Benchmark spatial gene expression prediction from histology images"
+    description: "Benchmark spatial gene expression prediction from H&E images using 150 to 200 μm spot"
     subcategory: "Histology"
+  - pmid: 39849132
+    author: "Chitra, Raphael"
+    year: 2025
+    journal: "Nat Methods"
+    description: "GASTON: Use isodepth from topographic map to define spatial domains and learn piecewise linear functions to model continuouse gradients and discontinuity in gene expression"
+    subcategory: "Domain"
 
 SiO_methods: 
 - pmid: 37002403
