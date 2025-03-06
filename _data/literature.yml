@@ -59,12 +59,43 @@ DL_Epi:
     journal: "Sci Rep"
     description: "DeepMethyl: Stacked denoising autoencoders from Hi-C and sequence patterns to predict methylation state"
     subcategory: "DNA Methylation Prediction"
+  - pmid: 39824848
+    author: "Jeong, Lutsik"
+    year: 2025
+    journal: "Nat Comm"
+    description: "MethylBERT: Bidirectional Encoder Representations from Transformers to derive tumour purity estimate"
+    subcategory: "DNA Methylation Biomarkers"
+  - pmid: 334245239
+    author: "Li, Wang"
+    year: 2021
+    journal: "Brief Bioinform"
+    description: "DISMIR: Predict the source of individual reads in plasma cfDNA WGBS"
+    subcategory: "DNA Methylation Biomarkers"
   - pmid: 32183722
     author: "Levy, Christensen"
     year: 2020
     journal: "BMC Bioinformatics"
     description: "MethylNet: Encoder-Decoder for EWAS traits"
     subcategory: "DNA Methylation Biomarkers"
+  - pmid: 28785873
+    author: "Korfiatis, Ercikson"
+    year: 2017
+    journal: "J Digit Imaging"
+    description: "Predicting MGMT methylation status using ResNet from MRI imaging"
+    subcategory: "DNA Methylation Biomarkers"
+  - pmid: 39574641
+    author: "Ying, Gladyshev"
+    year: 2024
+    journal: "bioRxiv"
+    description: "MethylGPT: A transformer-based foundation model trained on 226,555 human methylation profiles"
+    subcategory: "Foundation Models"
+  - pmid: Not available
+    author: "Camillow, Wang"
+    year: 2024
+    journal: "bioRxiv"
+    description: "CpGPT: A transformer-based foundation model trained on 1,500 DNA methylation datasets"
+    subcategory: "Foundation Models"
+
 
 DNAm_methods:
   - pmid: 39085432
