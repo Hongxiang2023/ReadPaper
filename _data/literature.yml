@@ -17,6 +17,18 @@ DL_Epi:
     journal: "Nat Comm"
     description: "Rockfish: Transformer-based model for nanopore sequencing data"
     subcategory: "DNA Methylation Prediction"
+  - pmid: 38961062
+    author: "Ahsan, Wang"
+    year: 2024
+    journal: "Nat Comm"
+    description: "DeepMod2: Bidirectional long short-term memory (BiLSTM) model and a Transformer model for methylation detection in Nanopore sequencing data"
+    subcategory: "DNA Methylation Prediction"
+  - pmid: 39196755
+    author: "Ma, Chen"
+    year: 2024
+    journal: "Bioinformatics"
+    description: "Deep5hmC: Integrates both the DNA sequence and epigenetic features such as histone modification and chromatin accessibility to predict genome-wide 5hmC modification"
+    subcategory: "DNA Methylation Prediction"
   - pmid: 39742481
     author: "Zeng, Huson"
     year: 2023
