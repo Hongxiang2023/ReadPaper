@@ -17,7 +17,7 @@ DL_Epi:
     journal: "Nat Comm"
     description: "Rockfish: Transformer-based model for nanopore sequencing data"
     subcategory: "DNA Methylation Prediction"
-  - pmid: 38961062
+  - pmid: 38365920
     author: "Ahsan, Wang"
     year: 2024
     journal: "Nat Comm"
@@ -29,11 +29,17 @@ DL_Epi:
     journal: "Bioinformatics"
     description: "Deep5hmC: Integrates both the DNA sequence and epigenetic features such as histone modification and chromatin accessibility to predict genome-wide 5hmC modification"
     subcategory: "DNA Methylation Prediction"
-  - pmid: 39742481
+  - pmid: 37489753
     author: "Zeng, Huson"
     year: 2023
     journal: "Gigascience"
     description: "MuLan-Methyl: Transformer based method to predict N6-adenine, N4-cytosine, and 5-hydroxymethylcytosine"
+    subcategory: "DNA Methylation Prediction"
+  - pmid: 37647650
+    author: "Deng, Fan"
+    year: 2023
+    journal: "Bioinformatics"
+    description: "GraphCpG: Transformer based method to predict N6-adenine, N4-cytosine, and 5-hydroxymethylcytosine"
     subcategory: "DNA Methylation Prediction"
   - pmid: 34718418
     author: "Waele, Waegeman"
@@ -47,7 +53,7 @@ DL_Epi:
     journal: "Bioinformatics"
     description: "DeepSignal: CNN to detect DNA methylation states from Nanopore sequencing reads"
     subcategory: "DNA Methylation Prediction"
-  - pmid: 30994904
+  - pmid: 31164644
     author: "Liu, Wang"
     year: 2019
     journal: "Nat Comm"
@@ -137,4 +143,10 @@ SiO_methods:
   year: 2023
   journal: "Nat Rev Genet"
   description: "Best practices for single-cell analysis across modalities"
+  subcategory: "Review"
+- pmid: 39566552
+  author: "Rood, Regev"
+  year: 2024
+  journal: "Nature"
+  description: "The Human Cell Atlas from a cell census to a unified foundation model."
   subcategory: "Review"
