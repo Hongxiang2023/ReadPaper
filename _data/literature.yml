@@ -5,6 +5,12 @@ DL_Epi:
     journal: "Sci Adv"
     description: "INTERACT: CNN+Transformer to predict DNAm levels from 2k sequence, and identify in silico variants that have high effects in prediction"
     subcategory: "DNA Methylation Prediction"
+  - pmid: 40215314
+    author: "Yan, Guo"
+    year: 2025
+    journal: "Sci Adv"
+    description: "DiffuCpG: Diffusion model to predict DNA methylation levels"
+    subcategory: "DNA Methylation Prediction"  
   - pmid: 39986279
     author: "Zhou, Han"
     year: 2025
